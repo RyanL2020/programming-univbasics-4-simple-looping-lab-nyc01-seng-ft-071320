@@ -15,9 +15,5 @@ def loop_message_n_times(message, interger)
 end
 
 def output_array(array)
-  count = 0 
-  while count < array 
-    puts array 
-    count += 1
+  array.to_s 
 end
-end 
