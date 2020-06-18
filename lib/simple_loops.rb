@@ -10,6 +10,6 @@ def loop_message_n_times(message, interger)
     count = 0
   while count < interger
     puts message
-    counter += 5
+    count += 1
   end
 end
