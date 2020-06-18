@@ -8,7 +8,7 @@ end
 
 def loop_message_n_times(messsage, interger)
     count = 0
-  while count == interger
+  while count < interger
     puts message
     counter += 1
   end
